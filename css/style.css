@@ -1,0 +1,26 @@
+#titolo{
+    font-size: 30px;
+    color: lightcoral;
+    text-align: center;
+    margin-top: auto;
+}
+#strutturapagina{
+    display: flex;
+    background-color: lightblue;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;}
+
+    #descrizione{
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        margin-top: 300px;
+    }

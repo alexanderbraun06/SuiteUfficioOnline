@@ -3,11 +3,12 @@
 <html>
     <head>
         <title>Suite Ufficio Online</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
-    <body>
-       <h1>Suite Ufficio Online</h1> 
+    <body id="strutturapagina">
+       <h1 id="titolo">Suite Ufficio Online</h1> 
 
-       <table border="1">
+       <table border="1" class="table">
         <tr>
             <th>Testi</th>
             <th>Fogli di Calcolo</th>
@@ -16,15 +17,15 @@
             
             </tr>
 
-            <td><button>Apri</button></td>
-            <td><button>Apri</button></td>
-            <td><button>Apri</button></td>
-            <td><button>Apri</button></td>
+            <td><button onclick="apriDocumenti()">Apri</button></td>
+            <td><button onclick="apriFogli()">Apri</button></td>
+            <td><button onclick="apriPresentazioni()">Apri</button></td>
+            <td><button onclick="apriCalcolatrice()">Apri</button></td>
 
         </tr>
        </table>
 
-       <p>Questa suite consente di creare e modificare documenti di testo, fogli di calcolo e presentazioni, nonché di utilizzare una calcolatrice per effettuare calcoli complessi. Il salvataggio avviene in locale in formato .PDF
+       <p id="descrizione">Questa suite consente di creare e modificare documenti di testo, fogli di calcolo e presentazioni, nonché di utilizzare una calcolatrice per effettuare calcoli complessi. Il salvataggio avviene in locale in formato .PDF
         Si può usare da qualunque device dotato di un browser web, senza la necessità di installare software aggiuntivo: smartphone, tablet, pc.
        </p>
 
