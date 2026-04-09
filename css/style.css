@@ -3,24 +3,40 @@
     color: lightcoral;
     text-align: center;
     margin-top: auto;
+    float: left;
+
 }
 #strutturapagina{
     display: flex;
     background-color: lightblue;
 }
 
-.table {
+#tabella {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     margin: 20px;
     padding: 20px;
     background-color: white;
-    border-radius: 10px;}
+    border-radius: 10px;
+    float: right;
+}
 
-    #descrizione{
-        font-size: 20px;
+#descrizione{
+        font-size: 17px;
         color: black;
         text-align: center;
-        margin-top: 300px;
+        margin-top: 200px;
+        float: left;
+    }
+
+    #Doc, #Fogli, #Presentazioni, #Calcolatrice {
+        font-size: 20px;
+        color: white;
+        background-color: lightcoral;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        pointer-events: auto;
     }
